@@ -1,3 +1,5 @@
+
+
 topics_idea = [
   "health", "travel", "hobbies/interests",  #personal posts
   "entertainment", "sports", "politics", "fashion", "religion",  #social & cultural topics
@@ -18,5 +20,4 @@ topics_current = [
   "science/tech" #technology
 ]
 
-# bbc has a good portion of these
-# can use facebook data again, find pages targetted to specific categories?
+# big ones are tech, business/economy, politics, sports for now
