@@ -7,7 +7,7 @@ def create_connection():
     host = os.getenv('DB_HOST'),
     user = os.getenv('DB_USER'),
     password = os.getenv('DB_PASSWORD'),
-    port = os.getenv('5432')
+    port = os.getenv('DB_PORT')
   )
   cursor = conn.cursor()
   return conn, cursor
@@ -30,6 +30,8 @@ def create_fb_data_table():
       text TEXT NOT NULL,
       source TEXT NOT NULL,
       topic TEXT NOT NULL,
+      site TEXT NOT NULL,
+      year TIMESTAMP NOT NULL,
       UNIQUE (text)
     );
     """
