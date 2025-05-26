@@ -31,7 +31,7 @@ def create_fb_data_table():
       source TEXT NOT NULL,
       topic TEXT NOT NULL,
       site TEXT NOT NULL,
-      year TIMESTAMP NOT NULL,
+      date TIMESTAMP NOT NULL,
       UNIQUE (text)
     );
     """
